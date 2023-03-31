@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'poppins',sans-serif;
+    line-height: 1;
+    font: 16px; 
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    min-height: 100vh;   
+}
+
+.container .section1{
+    height: 60%;
+    background-color: deepskyblue;
+}
+
+.container .section1 .location{
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+.container .section1 > .address > .cookie > img{
+    font-size: 50px;
+}
+.container .section1 .address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto 0 auto;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+.container .section1 > .address > *{
+    text-align: center;
+     color:aliceblue
+}
+
+.container .section1 > .address > i{
+   font-size: 48px;
+   font-weight: 700;   
+}
+.container .section1 > .address > .temperature{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container .section1 > .address > .city{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container .section1 > .address > .description{
+    font-size: 14px;
+}
+.container .section1 > .weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: deepskyblue;
+    padding-bottom: 30px;
+}
+.container .section1 > .weather > .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0px 20px;
+    margin-top: 10px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.container .section1 > .weather > .wind > .icon > img{
+    padding-right: 3px;
+}
+
+.container .section2 > .forecast{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(118, 117, 117);
+}
+
+.container .section2 > .days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+}
+.container .section2 > .days > .day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.container .section2 > .days > .day > i{
+    margin-bottom: 10px;
+}
+.container .section2 > .days > .day > .sunday{
+    font-size: 15px;
+    font-weight: 550;
+    color:rgb(118, 117, 117);
+    margin-bottom: 10px;
+    padding-left: -5px;
+}
+.container .section2 > .days > .day > .max-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.container .section2 > .days > .day > .max-min > .max > i{
+    width: 5px;
+    height: 5px;
+    color:crimson;
+}
+.container .section2 > .days > .day > .max-min > .min > i{
+    width: 5px;
+    height: 5px;
+    color:midnightblue;
+}
+.container .section2 > .days > .day > .temper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(118, 117, 117);
+    padding-left: -10px;
+}
+
+
+
+.container .section2 > .days > .day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;   
+}
+.container .section2 > .days > .day > i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.container .section2 > .days > .day > .sunday{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(118, 117, 117);
+    margin-bottom: 10px;
+}
+.container .section2 > .days > .day  > .max-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.container .section2 > .days > .day > .max-min > .max > i{
+    width: 5px;
+    height: 5px;
+    color:crimson;   
+}
+.container .section2 > .days > .day > .max-min > .min > i{
+    width: 5px;
+    height: 5px;
+    color:midnightblue;
+}
+.container .section2 > .days > .day > .temper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(118, 117, 117);
+    padding-left: -10px;
+}
+
+
+
+

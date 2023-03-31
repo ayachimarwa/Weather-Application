@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src="https://kit.fontawesome.com/584215cf84.js" crossorigin="anonymous"></script>
+
+    
+  </head>
+
+  <body>
+    <div class="container">
+
+    <div class="section1">
+            <div class="location">
+                <a   onclick="getWeatherData()" id="location">
+                    Use Your Location
+                </a>
+					
+            </div>
+
+            <div class="address">
+                <div class="cookie" >
+                    <img id="main-section-icon" src="./8541717_cookie_bite_icon.svg" alt="" width="50px" >
+                </div>
+                <div class="temperature" id="temperature">3°C</div>
+                <div class="city" id="address">Albuquerque,NM</div>
+                <div class="description" id="description">It is clear right now.</div>
+            </div>
+    
+            <div class="weather">
+                <div class="btn">
+                    <div class="title-wind">Wind:</div>
+                    <div class="icon">
+                        <img src="./8666815_wind_windy_weather_icon.svg" alt="" width="20px">
+                    </div>
+                    <p id="wind">11.27km/h</p>
+                </div>
+
+                <div class="btn">
+                   <div class="icon">
+                        <img src="./7795612_weather_sunrise_morning_icon.svg" alt="" width="20px">
+                   </div>
+                    <div class="sun-title">Sunrise:</div>
+                    <p id="sunrise-time">7:8am</p>
+                </div>
+
+                <div class="btn">
+                    <div class="icon">
+                        <img src="./7795618_weather_sunset_evening_icon.svg" alt="" width="20px">
+                    </div>
+                    <div class="sunset-title">Sunset: </div>
+                    <p id="sunset-time">5:31pm</p>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="section2">
+
+        <div class="forecast">
+            <p>5-Day Forecast</p>
+        </div>
+        <div id="days" class="days"></div>
+
+        
+        
+    </div>
+</div>
+<script language="javascript" src="Weather.js"></script>
+  </body>
+</html>
